@@ -4,10 +4,31 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
-    <router-view/>
+    <router-view />
   </div>
 </template>
+<script>
+// @ is an alias to /src
 
+export default {
+  name: "Home",
+  created() {
+    function count() {
+      return new Promise((resolve, reject) => {
+        setTimeout(() => {
+          resolve({ name: "wang" });
+        }, 2000);;
+      });
+    }
+
+    async function fn() {
+      var a = await count();
+      console.log(a);
+    }
+    fn();
+  },
+};
+</script>
 <style lang="less">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

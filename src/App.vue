@@ -30,6 +30,9 @@ export default {
 };
 </script>
 <style lang="less">
+html{
+  font-size: 4.2666666vw;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -42,6 +45,7 @@ export default {
   padding: 30px;
 
   a {
+    font-size: 16px;
     font-weight: bold;
     color: #2c3e50;
 

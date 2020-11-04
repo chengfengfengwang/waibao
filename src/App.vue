@@ -31,7 +31,7 @@ export default {
 </script>
 <style lang="less">
 html{
-  font-size: 4.2666666vw;;
+  font-size: 4.2666666vw;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

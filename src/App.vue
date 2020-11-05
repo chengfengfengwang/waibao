@@ -43,7 +43,6 @@ html{
 
 #nav {
   padding: 30px;
-
   a {
     font-size: 16px;
     font-weight: bold;
